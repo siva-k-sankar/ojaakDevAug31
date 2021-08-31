@@ -1,0 +1,30 @@
+#scrolltop {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:35px;
+    height:35px;
+    background-color:#09d26d;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:0px;
+}
+#scrolltop span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scrolltop:hover {
+    background-color:#09d26d;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
